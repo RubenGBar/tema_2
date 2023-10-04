@@ -6,7 +6,7 @@ public class Boletin1_ejercicio6 {
 	public static void main(String[] args) {
 		
 		//Declaro las variables donde se almacenarán los númros de la ecuación
-		double a, b, c, x1, x2, x3, x4, x5;
+		double a, b, c, x1, x2, x3;
 		
 		//Creo el Scanner
 		Scanner sc = new Scanner(System.in);
