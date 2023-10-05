@@ -38,7 +38,7 @@ public class Boletin1_ejercicio6 {
 		if (x1 <= 0) {//Compruebo si el el número es negatiov, si lo es mostrará un mensaje de error
 			System.out.println("La operación no tiene una solución real");
 		}else if (a == 0) {//Compruebo si la a vale 0, si es así resuelvo como una ecuación de primer grado
-			x2 = (-c/b);
+			x2 = (-c / b);
 			System.out.println("El valor de x es igual a " + x2);
 		}else {//Calculo de la ecuación de segundo grado e impresión de los resultados
 			x2 = ( (-b + Math.sqrt(x1)) / (2*a) );
