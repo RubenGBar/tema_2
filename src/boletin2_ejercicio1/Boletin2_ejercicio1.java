@@ -23,28 +23,28 @@ public class Boletin2_ejercicio1 {
 		//Creo el Switch para mostrar mensajes según el valor introducido
 		switch (nota) {
 		
-		case 0, 1, 2, 3, 4 -> {//Si se cumple la condición se muestrab el mensaje insuficiente
+		case 0, 1, 2, 3, 4 -> {//Si se cumple la condición se muestra el mensaje insuficiente
 			System.out.println("insuficiente");
 		}
 		
-		case 5 -> {//Si se cumple la condición se muestrab el mensaje suficiente
+		case 5 -> {//Si se cumple la condición se muestra el mensaje suficiente
 			System.out.println("suficiente");
 		}
 		
-		case 6 -> {//Si se cumple la condición se muestrab el mensaje bien
+		case 6 -> {//Si se cumple la condición se muestra el mensaje bien
 			System.out.println("bien");
 		}
 		
-		case 7, 8 -> {//Si se cumple la condición se muestrab el mensaje notable
+		case 7, 8 -> {//Si se cumple la condición se muestra el mensaje notable
 			System.out.println("notable");
 		}
 		
-		case 9, 10 -> {//Si se cumple la condición se muestrab el mensaje sobresaliente
+		case 9, 10 -> {//Si se cumple la condición se muestra el mensaje sobresaliente
 			System.out.println("sobresaliente");
 		}
 		
 		default -> {//Si el valor es mayor que 10 o menor que 0 da un error
-			System.out.println("valor inválida");
+			System.out.println("valor inválido");
 		}
 		
 		}
