@@ -25,19 +25,13 @@ public class Boletin2_ejercicio5 {
 		case "D" -> {//Si introduce D mostrará que su carnet es de autobuses
 			System.out.println("Su carnet es de autobuses");
 		}
-		case "C1" -> {//Si introduce C1 mostrará que su carnet es de camiones
-			System.out.println("Su carnet es de camiones");
-		}
-		case "C5" -> {//Si introduce C5 mostrará que su carnet es de camiones
+		case "C1", "C2", "C3", "C4", "C5" -> {//Si introduce un valor entre C1 y C5 mostrará que su carnet es de camiones
 			System.out.println("Su carnet es de camiones");
 		}
 		case "A" -> {//Si introduce A mostrará que su carnet es de motocicletas
 			System.out.println("Su carnet es de motocicletas");
 		}
-		case "B1" -> {//Si introduce B1 mostrará que su carnet es de automóviles
-			System.out.println("Su carnet es de automóviles");
-		}
-		case "B2" -> {//Si introduce B2 mostrará que su carnet es de automóviles
+		case "B1", "B2" -> {//Si introduce B1 o B2 mostrará que su carnet es de automóviles
 			System.out.println("Su carnet es de automóviles");
 		}
 		default -> {
