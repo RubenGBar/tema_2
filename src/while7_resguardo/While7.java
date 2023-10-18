@@ -1,4 +1,4 @@
-package while7;
+package while7_resguardo;
 
 import java.util.Scanner;
 
